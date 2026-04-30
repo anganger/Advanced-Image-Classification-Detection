@@ -1,0 +1,17 @@
+# Ignore large PyTorch model weights (these auto-download)
+*.pt
+*.pth
+
+# Ignore downloaded dataset folders (too heavy for GitHub)
+data/
+datasets/
+
+# Ignore the old, incomplete YOLO training runs
+runs/detect/train/
+runs/detect/train-3/
+
+# Ignore Jupyter Notebook cache/checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache
+__pycache__/
